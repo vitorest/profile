@@ -1,0 +1,87 @@
+body {
+  background-color:rgba(250,250,250);
+  font-family: 'Ropa Sans', sans-serif;
+  color:rgba(15,15,15,0.7);
+  font-size:1.3em;
+  line-height:default;
+}
+
+h1 {
+  color:rgba(78,20,19,0.6);
+  font-family: 'Ropa Sans', sans-serif;;
+  line-height: default;
+  font-size: 1.2em;
+
+}
+
+p {
+  font-size:0.85em;
+}
+
+a {
+  text-decoration: none;
+  color:rgba(22,57,11,0.8);
+  font-size:0.81em;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.card-white1 {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+
+after-- first do it on HTML
+ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
